@@ -115,7 +115,7 @@ public class Bot extends TelegramLongPollingBot {
         Parser parser = new Parser(postType);
         return parser;
     }
-
+/*
     public static String listToString(List<Parser.Post> list) {
         String result = "+";
         for (int i = 0; i < list.size(); i++) {
@@ -123,4 +123,6 @@ public class Bot extends TelegramLongPollingBot {
         }
         return result;
     }
+
+ */
 }
